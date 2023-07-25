@@ -1,0 +1,154 @@
+.topfonttheme{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.tabletheme{
+color: black;
+border-spacing:30px;
+border-padding: 5px   
+}
+
+.topfonttheme:hover{
+    color: cornflowerblue;
+}
+
+.icontheme{
+    background-color: white;   
+}
+
+.icontheme:hover{
+    background-color: cornflowerblue;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 10px;
+ transition: width 2s, height 4s; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.shopnowtheme{
+    border-color: black;
+    border-width: 5px;
+}
+
+.offerbox{
+    background-color: rgba(240, 240, 240, 1.0);
+    font-size: 30px;
+    color: black;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.offerbox:hover{
+    
+   background-color:  rgba(115, 147, 179, 1.0); 
+   color: white;
+}
+
+.offericon{
+    height: 100px;
+    width: 100px;
+}
+
+.offericon:hover,
+.offericon:focus{
+   filter: invert(100%);
+}
+.offertable{
+    border-spacing:100px;
+    border-padding: 100px;   
+}
+
+.productimg{
+    display: block;
+  width:100px;
+    height:200px;    
+}
+
+.categorybox{
+    background-color: rgba(241, 241, 241, 1.0);
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.categorybox:hover{
+    background-image:url(orangeblur.jpg); 
+    color: white;
+    transition: width 2s;
+}
+ helo {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example{
+    from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.topfile{
+    position: fixed;
+    top: 0;
+}
+
+.productdesign{
+   border: 1px solid rgba(126, 126, 126, 0.4); 
+   border-radius: 10px; 
+   padding-top: 10px; 
+   width: 240px; 
+   padding-left: 10px; 
+   padding-right: -20px; 
+   padding-bottom: 10px;
+}
+
+.productdesign:hover{
+    box-shadow: 3px 3px #cccccc;
+    
+}
+.bottomhover{
+    width: 500px; font-size: 20px; color: rgba(189,187,180, 1.0);   font-family: sans-serif;
+}
+.bottomhover:hover{
+    color: white:
+        filter: invert(100%)
+}
+.subfurniture{
+    height: 200px; 
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+.subfurniture:hover{
+    filter: brightness(1.05) invert(0);
+    visibility: visible;
+}
